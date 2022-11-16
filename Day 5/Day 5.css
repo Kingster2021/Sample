@@ -1,0 +1,29 @@
+/* Background Sample */
+#div1 {
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://images.unsplash.com/photo-1568666948527-4a0a17d52974?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGFuaW1hdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.div2 {
+    width: 300px;
+    height: 300px;
+    border: 1px dashed lime;
+}
+.div3 {
+    background-color: maroon;
+}
+.div2.div3 {
+    color: chartreuse;
+}
+
+.div4 {
+    width: 250px;
+    height: 250px;
+    border: 1px double darkblue;
+    background-color: aquamarine;
+}
