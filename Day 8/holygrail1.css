@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    height: 10vh;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+/* vh = viewport height */
+main {
+    display: flex;
+    height: 80vh;
+}
+
+nav {
+    background-color: lightcoral;
+    width: 20%;
+    padding: 10px;
+}
+
+article {
+    background-color: lightyellow;
+    width: 60%;
+    padding: 10px;
+}
+
+aside {
+    background-color: lightskyblue;
+    width: 20%;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+}
